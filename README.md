@@ -5,8 +5,20 @@ It allows users to test their knowledge with multiple-choice questions, get inst
 
 
 ## 📸 Preview  
-![QuizMaster Screenshot](preview.png)  
-*(You can add a screenshot of your project here)*  
+
+Here are some screenshots of **QuizMaster** in action:
+
+### 🏠 Landing Page  
+![Landing Page](screenshots/landing.png)  
+
+### 📂 Categories  
+![Categories](screenshots/categories.png)  
+
+### 📝 Taking the Quiz  
+![Quiz Taking](screenshots/quiz-taking.png)  
+
+### 🎯 Quiz Result  
+![Quiz Result](screenshots/result.png)  
 
 
 ## ✨ Features  
@@ -47,7 +59,7 @@ quizMaster/
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/quizMaster.git
+   git clone https://github.com/OmarWael22/QuizMaster.git
    ```
 
 2. **Open in browser**  
