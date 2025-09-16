@@ -59,7 +59,7 @@ quizMaster/
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/quizMaster.git
+   git clone https://github.com/OmarWael22/QuizMaster.git
    ```
 
 2. **Open in browser**  
