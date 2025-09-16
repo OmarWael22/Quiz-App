@@ -96,3 +96,6 @@ a{
 .hover-enable:hover{
     background: #cfe2ff !important;
 }
+.progress .progress-bar{
+    transition: var(--transition);
+}
