@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuizMaster - Fun and interactive quizzes to test your knowledge, track progress, and compete with friends.">
+    <title>Quiz App</title>
+    <!-- fontawsome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></noscript>
+    <link rel="icon" type="image/png" href="../images/logo.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+        <div class="container justify-content-between gap-3">
+            <div class="d-flex align-items-center gap-3">
+                <a href="index.html" class="text-muted btn"><i class="fa-solid fa-arrow-left" style="font-size: 1rem;"></i>  Back</a>
+                <div class="text" style="width: fit-content;">
+                    <h5 class="text-capitalize mb-1 " style="width: fit-content;">choose your quiz</h3>
+                    <p class="text-muted m-0  ">Select a category to start your learning journey</p>
+                </div>
+            </div>
+            <a class="navbar-brand fw-bold d-flex justify-content-center align-items-center d-none d-sm-block" href="#">
+            <img src="../images/logo.webp" alt="logo" width="35" class="object-fit-cover object-fit-cover rounded-circle">
+            <span class="d-none d-md-inline">QuizMaster</span>
+            </a>
+        </div>
+    </nav>
+    <div class="categorys pt-5 pb-5">
+        <div class="container">
+            <div class="row g-4" id="cat-container">
+                <!-- to be populated using js -->
+                <!-- temp data to test styling  -->
+                <template id="cat-template">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="cat-card bg-body-tertiary p-4 rounded-4 shadow-sm">
+                            <div class="cat-title">
+                                <i class="bi bi-book bg-hero d-block fs-3 mb-3 p-3 rounded text-white "></i>
+                                <h3 class="fw-bold"></h3>
+                                <p class="text-muted"></p>
+                            </div>
+                            <span class="badge bg-success rounded-pill mb-3 ">easy</span>
+                            <span class="badge bg-warning rounded-pill">medium</span>
+                            <span class="badge bg-danger rounded-pill">hard</span>
+                            <ul class="cat-info list-unstyled text-muted">
+                                <li class="questions mb-2"><i class="bi bi-book"></i> <span>n</span> questions</li>
+                                <li class="time mb-2"><i class="bi bi-stopwatch"></i> <span>time</span> limit</li>
+                                <li class="participation mb-2"><i class="bi bi-people"></i> <span>n</span> participation</li>
+                                <li class="rate mb-2"><i class="bi bi-star-fill text-warning"></i> <span>rating</span></li>
+                            </ul>
+                            <button class="btn w-100 rounded-pill bg-hero text-white mt-3 startQuiz-btn">Start Quiz</button>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="../js/getStart.js"></script>
+</body>
+</html>

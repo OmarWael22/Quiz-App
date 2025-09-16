@@ -1,0 +1,90 @@
+[
+  {
+    "id": 9,
+    "title": "General Knowledge",
+    "icon": "bi-book",
+    "description": "Test your knowledge across various topics and subjects.",
+    "difficulty": ["easy", "medium", "hard"],
+    "questions": 15,
+    "time": "10 min",
+    "participants": "12,453",
+    "rating": "4.8/5"
+  },
+  {
+    "id": 17,
+    "title": "Science",
+    "icon": "bi-flask",
+    "description": "Explore physics, chemistry, and biology challenges.",
+    "difficulty": ["easy", "medium", "hard"],
+    "questions": 20,
+    "time": "15 min",
+    "participants": "9,876",
+    "rating": "4.6/5"
+  },
+  {
+    "id": 23,
+    "title": "History",
+    "icon": "bi-hourglass-split",
+    "description": "Dive into world history and test your memory of events.",
+    "difficulty": ["medium", "hard"],
+    "questions": 18,
+    "time": "12 min",
+    "participants": "7,342",
+    "rating": "4.5/5"
+  },
+  {
+    "id": 21,
+    "title": "Sports",
+    "icon": "bi-trophy",
+    "description": "Check your knowledge of football, basketball, and more.",
+    "difficulty": ["easy", "medium"],
+    "questions": 12,
+    "time": "8 min",
+    "participants": "14,221",
+    "rating": "4.7/5"
+  },
+  {
+    "id": 18,
+    "title": "Technology",
+    "icon": "bi-cpu",
+    "description": "From gadgets to programming, test your tech knowledge.",
+    "difficulty": ["easy", "medium", "hard"],
+    "questions": 22,
+    "time": "20 min",
+    "participants": "10,562",
+    "rating": "4.9/5"
+  },
+  {
+    "id": 14,
+    "title": "Movies & TV",
+    "icon": "bi-film",
+    "description": "How well do you know Hollywood, Netflix, and beyond?",
+    "difficulty": ["easy", "medium"],
+    "questions": 15,
+    "time": "10 min",
+    "participants": "11,004",
+    "rating": "4.4/5"
+  },
+  {
+    "id": 22,
+    "title": "Geography",
+    "icon": "bi-globe",
+    "description": "Test your knowledge of countries, capitals, and maps.",
+    "difficulty": ["easy", "medium", "hard"],
+    "questions": 17,
+    "time": "12 min",
+    "participants": "8,439",
+    "rating": "4.6/5"
+  },
+  {
+    "id": 12,
+    "title": "Music",
+    "icon": "bi-music-note-beamed",
+    "description": "Genres, artists, and history of music worldwide.",
+    "difficulty": ["easy", "medium"],
+    "questions": 13,
+    "time": "9 min",
+    "participants": "6,788",
+    "rating": "4.3/5"
+  }
+]

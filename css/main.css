@@ -1,0 +1,98 @@
+:root {
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --hero-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s 
+ease;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.gradient-text {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* navbar */
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/* landing page */
+.landing{
+    background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+}
+.gradient-btn {
+    background: var(--primary-gradient);
+    border: none;
+    transition: var(--transition);
+}
+.gradient-bg{
+    background: var(--primary-gradient);
+    color: white;
+}
+.btn{
+    transition: var(--transition);
+}
+.gradient-btn:hover , .btn:hover{
+    box-shadow: var(--card-shadow);
+    transform: translateY(-2px);
+}
+/* features section */
+.gradient-icon{
+    background: var(--primary-gradient);
+    color : white;
+    width: 60px;
+    
+}
+.feature-card{
+    /* box-shadow: var(--card-shadow); */
+    transition: var(--transition);
+}
+.feature-card:hover{
+    transform: translateY(-5px);
+    box-shadow: var(--card-shadow);
+}
+/* get start section */
+.getstart{
+    background: var(--primary-gradient);
+}
+
+/**********************************************************************************/
+.bg-hero{
+    background: var(--primary-gradient);
+}
+.cat-card .cat-title i{
+    width: fit-content;
+}
+.cat-card{
+    transition: var(--transition);
+}
+.cat-card:hover{
+    box-shadow: var(--card-shadow) !important;
+    transform : translateY(-5px)
+}
+.choice-letter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.choice-text{
+    font-size: 1.25rem;
+    display: inline-block;
+}
+/*************************************************/
+.question-text .choices li{
+    transition: var(--transition);
+}
+.hover-enable:hover{
+    background: #cfe2ff !important;
+}

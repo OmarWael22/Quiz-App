@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuizMaster - Fun and interactive quizzes to test your knowledge, track progress, and compete with friends.">
+    <title>Quiz App</title>
+    <!-- fontawsome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></noscript>
+    <link rel="icon" type="image/png" href="../images/logo.webp">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex justify-content-center align-items-center" href="#">
+                <img src="../images/logo.webp" alt="logo" width="35" class="object-fit-cover object-fit-cover rounded-circle">
+                QuizMaster
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mb-4 mb-lg-0 " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item me-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item me-2">
+                <a class="nav-link active" aria-current="page" href="#features">Features</a>
+                </li>
+                <li class="nav-item me-2">
+                <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+            <form class="d-flex align-items-center mb-0" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <div class="landing">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="text col-12 col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="display-3 fw-bold mb-4 gradient-text">
+                        Master Any Subject with Interactive Quizzes
+                    </h1>
+                    <p class="lead text-muted mb-4 col-10">
+                        Challenge yourself with thousands of carefully crafted questions across multiple subjects. Track your progress, compete with friends, and become a true quiz master.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 mb-5">
+                        <a class="text-white btn btn-primary btn-lg px-4 py-3 rounded-3 gradient-btn " href="getStart.html">Start Quiz Now <i class="fa-solid fa-arrow-right" style="font-size: 1.1rem;"></i></a>
+                        <a href="#" class="btn btn-outline-secondary btn-lg px-4 py-3 rounded-3">Live Demo</a>
+                    </div>
+                    <div class="row g-4 pt-4">
+                        <div class="col-6 col-lg-3 text-center">
+                            <div class="h4 fw-bold mb-1">10K+</div>
+                            <div class="small text-muted">Active Users</div>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center">
+                            <div class="h4 fw-bold mb-1">500+</div>
+                            <div class="small text-muted">Quiz Topics</div>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center">
+                            <div class="h4 fw-bold mb-1">1M+</div>
+                            <div class="small text-muted">Questions Answered</div>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center">
+                            <div class="h4 fw-bold mb-1">4.9</div>
+                            <div class="small text-muted">User Rating</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image col-12 col-lg-6 d-flex align-items-center ">
+                    <img src="../images/landing.webp" alt="quiz illustration" class="img-fluid rounded-5">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features pt-5 pb-5">
+        <div class="container">
+            <div class="heading text-center mb-5">
+                <h2 class="text-capitalize fw-bold ">Why choose QuizMaster?</h2>
+                <p class="lead text-muted">Everything you need to excel in your learning journey</p>
+            </div>
+            <div class="row g-4 " id="features">
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="feature-card bg-body-tertiary rounded-4 p-4 d-flex flex-column shadow-sm align-items-center h-100">
+                        <div class="icon gradient-icon p-2 mb-3 rounded-3 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-brain fa-2x "></i>
+                        </div>
+                        <div class="text text-center">
+                            <h5 class="fw-bold mb-3">Smart Questions</h5>
+                            <p class="text-muted">AI-powered questions that adapt to your knowledge level</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="feature-card bg-body-tertiary rounded-4 p-4 d-flex flex-column shadow-sm align-items-center h-100 ">
+                        <div class="icon gradient-icon p-2 mb-3 rounded-3 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-clock fa-2x "></i>
+                        </div>
+                        <div class="text text-center">
+                            <h5 class="fw-bold mb-3">Timed Challenges</h5>
+                            <p class="text-muted">Test your knowledge under pressure with time limits</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card bg-body-tertiary rounded-4 p-4 d-flex flex-column shadow-sm align-items-center h-100 ">
+                        <div class="icon gradient-icon p-2 mb-3 rounded-3 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-trophy fa-2x "></i>
+                        </div>
+                        <div class="text text-center">
+                            <h5 class="fw-bold mb-3">Track Progress</h5>
+                            <p class="text-muted">Monitor your learning journey and see improvement over time</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card bg-body-tertiary rounded-4 p-4 d-flex flex-column shadow-sm align-items-center h-100 ">
+                        <div class="icon gradient-icon p-2 mb-3 rounded-3 d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-users fa-2x "></i>
+                        </div>
+                        <div class="text text-center">
+                            <h5 class="fw-bold mb-3">Community</h5>
+                            <p class="text-muted">Compete with friends and climb the leaderboards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="getstart pt-5 pb-5 ">
+        <div class="container">
+            <div class="heading text-center text-white ">
+                <h2 class="text-capitalize fw-bold mb-4 ">Ready to Test Your Knowledge?</h2>
+                <p class="lead opacity-75 mb-5">Join thousands of learners who are already improving their skills with our interactive quizzes.</p>
+                    <a class="btn btn-light  btn-lg px-4 py-3 rounded-3 text-black " href="getStart.html">Start Quiz For Free <i class="fa-solid fa-arrow-right" style="font-size: 1.1rem;"></i></a>            
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light py-5">
+            <div class="container text-white">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="../images/logo.webp" alt="logo" width="35" class="object-fit-cover object-fit-cover rounded-circle">
+                            <h5 class="m-0">QuizMaster</h3>
+                        </div>
+                        <p class="small col-9 ">Making learning fun and interactive through engaging quizzes.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="fw-bold text-white mb-3">Platform</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none small">Features</a></li>
+                            <li><a href="#" class="text-decoration-none small">Pricing</a></li>
+                            <li><a href="#" class="text-decoration-none small">API</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="fw-bold text-white mb-3">Support</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class=" text-decoration-none small">Help Center</a></li>
+                            <li><a href="#" class=" text-decoration-none small">Contact</a></li>
+                            <li><a href="#" class=" text-decoration-none small">Status</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="fw-bold text-white mb-3">Company</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none small">About</a></li>
+                            <li><a href="#" class="text-decoration-none small">Blog</a></li>
+                            <li><a href="#" class="text-decoration-none small">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="border-secondary my-4">
+                <div class="text-center">
+                    <p class="small mb-0">&copy; 2025 QuizMaster. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
